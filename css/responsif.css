@@ -1,0 +1,90 @@
+@media screen and (max-width: 922px) {
+  .mt-md-5 {
+    margin-top: 50;
+  }
+
+  .kotak-img {
+    height: 70px;
+  }
+
+  .img-card {
+    width: 200px;
+    height: auto;
+  }
+
+  .card-berita {
+    margin: 15px 0;
+  }
+
+  /* berita 1 */
+  .img-berita {
+    height: 470px;
+  }
+
+  /* profil mesjid */
+  .img-gallery {
+    padding-top: 30px;
+  }
+
+  .breadcrumb-sz {
+    font-size: 8px;
+    padding-bottom: 30px;
+  }
+
+  .komentar {
+    padding-top: 30px;
+  }
+
+  .testi {
+
+    padding-left: 40px;
+  }
+
+  #berita h2{
+    padding-top: 20px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .img-hero {
+    width: 75%;
+    height: auto;
+    margin-left: 15%;
+  }
+
+  .hero-tagline h1 {
+    font-size: px;
+    line-height: 100%;
+  }
+
+  .hero-tagline p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .card-berita {
+    margin: 15px 0;
+  }
+
+  .kotak-img {
+    height: 40%;
+    width: auto;
+  }
+
+  .img-card {
+    width: 100%;
+    height: auto;
+  }
+
+  /* berita */
+  .img-berita {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
