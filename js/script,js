@@ -8,6 +8,10 @@ window.addEventListener("scroll", function () {
   }
 });
 
+function SignUp() {
+  alert("Akun anda belum terdaftar!");
+}
+
 function Login() {
   var done = 0;
   var username = document.login.username.value;

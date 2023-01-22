@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/responsif.css" />
 
     <link rel="icon" href="assets/img/icon/mosque-islam-svgrepo-com.svg" />
-    <title>DKMD - LOGIN</title>
+    <title>DKMD - SIGN UP</title>
   </head>
 
   <body>
@@ -31,27 +31,48 @@
 
       <!-- login section -->
       <div class="container ">
-        <h2 class="text-center my-4 ">Login Sistem Direktori Mesjid</h2>
+        <h2 class="text-center my-4 ">Sign-up Sistem Direktori Mesjid</h2>
       </div>
       <div class="col-lg-6 col-sm- p-4 mx-auto">
         <section class="container main-card-profil p-4 mx-auto">
 
         <form style="color: #edf5e0" name="login" class="me-auto">
-          <div class="text-center">
-            <div class="input-block mt-5">
-              <label for="username" class="col-lg-2">Username</label>
-              <input class="col-lg-3" type="text" name="username" id="username" placeholder="username">
-          </div>
-          <div class="input-block mt-3">
-              <label for="password" class="col-lg-2">Password</label>
-              <input class="col-lg-3"  type="password" name="password" id="password" placeholder="sandi">
-          </div>
-          <div class="modal-buttons">
-            <button class="button-secondary mb-5 mt-4"  type="button" onClick="Login()">Masuk</button>
+          <div class="">
+            <div class="row mb-3 pt-5">
+              <label for="inputName" class="ms-4 col-sm-5 col-form-label">Nama Lengkap</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="name">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputEmail" class="ms-4 col-sm-5 col-form-label">Email</label>
+              <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputkarakter" class="ms-4 col-sm-5 col-form-label">Username</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="user">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputSandi" class="ms-4 col-sm-5 col-form-label">Password</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="user">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputSandi2" class="ms-4 col-sm-5 col-form-label">Password Ulang</label>
+              <div class="col-sm-6">
+                <input type="password" class="form-control" id="user">
+              </div>
+            </div>
+          <div class="modal-buttons text-center">
+            <button class="button-secondary mb-5 mt-4"  type="button" onClick="SignUp()">daftar</button>
         </div>
           </div>
         </form>
-      <p style="color: #edf5e0" class="text-center mt-5 mb-2">Belum punya akun? <a href="sign-up.html" style="color: rgb(5, 58, 107)">Buat Sekarang</a></p>
         </section>
       </div>
 
